@@ -10,7 +10,7 @@ import com.william.credito.infrastructure.dto.AccountDTO;
 import com.william.credito.infrastructure.dto.CreateCreditDTO;
 import com.william.credito.infrastructure.dto.CreditDTO;
 import feign.FeignException;
-import jakarta.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

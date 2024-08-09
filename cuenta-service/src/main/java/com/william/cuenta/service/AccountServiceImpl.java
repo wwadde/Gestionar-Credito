@@ -9,7 +9,7 @@ import com.william.cuenta.infrastructure.dao.account.AccountDao;
 import com.william.cuenta.infrastructure.dao.payment.PaymentDao;
 import com.william.cuenta.infrastructure.dto.AccountDTO;
 import com.william.cuenta.infrastructure.dto.PersonResponseDTO;
-import jakarta.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
