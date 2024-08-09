@@ -35,3 +35,5 @@ Persona es el microservicio independiente que se encarga de gestionar la informa
 - Spring Cloud Eureka Server
 - Spring Cloud Eureka Client
 - Lombok
+- OpenAPI
+- ModelMapper
