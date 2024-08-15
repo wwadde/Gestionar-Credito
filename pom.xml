@@ -21,6 +21,7 @@
         <module>cuenta-service</module>
         <module>persona-service</module>
         <module>discovery-server</module>
+        <module>gateway-service</module>
     </modules>
 
     <properties>

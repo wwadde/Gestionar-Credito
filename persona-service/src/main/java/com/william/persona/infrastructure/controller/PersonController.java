@@ -5,6 +5,7 @@ import com.william.persona.infrastructure.dto.EditPersonDTO;
 import com.william.persona.infrastructure.dto.PersonDTO;
 import com.william.persona.service.PersonService;
 import lombok.RequiredArgsConstructor;
+import org.modelmapper.internal.bytebuddy.asm.Advice;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/person")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 public class PersonController {
 
